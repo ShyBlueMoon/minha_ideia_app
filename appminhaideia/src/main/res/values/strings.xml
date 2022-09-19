@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppMinhaIdeia</string>
+    <string name="whats_your_name">Qual seu nome?</string>
+    <string name="your_name_here">Digite aqui</string>
+    <string name="acessibility_label_input_name">Digite seu nome aqui</string>
+    <string name="button_send_name">Enviar</string>
+    <string name="hello">Olá,</string>
+    <string name="err_sem_nome">Por favor, digite seu nome!</string>
+    <string name="nome_aqui">Nome vai aqui</string>
+</resources>
