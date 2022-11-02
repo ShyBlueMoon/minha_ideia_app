@@ -19,9 +19,10 @@
         app:flow_verticalAlign="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.351" />
+        app:layout_constraintVertical_bias="0.266" />
 
     <EditText
         android:id="@+id/nameTypeHere"
@@ -29,14 +30,14 @@
         android:layout_height="53dp"
         android:autofillHints="@string/acessibility_label_input_name"
         android:ems="10"
+        android:hint="@string/your_name_here"
+        android:textColorHint="#c2c4cf"
         android:inputType="textPersonName"
-        android:text="@string/your_name_here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/whats_your_name"
-        app:layout_constraintVertical_bias="0.143" />
+        app:layout_constraintVertical_bias="0.222" />
 
     <Button
         android:id="@+id/btn_send_name"
